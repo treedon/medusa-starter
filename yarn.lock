@@ -1917,17 +1917,23 @@
     tailwindcss "^3.3.6"
     vite "^5.2.11"
 
-"@medusajs/admin-sdk@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@medusajs/admin-sdk/-/admin-sdk-2.4.0.tgz#468484f1f3c74a32e14f63ff22f25b75ad58451b"
-  integrity sha512-Iq+HDRFLyJcZoYhgA/GNUzSmCbKmzaCFS1reXbrm1mks8U+vQqwyDNS8pIOyAvbA+fsmueqLbJ6GjEbOPxwWxg==
+"@medusajs/admin-sdk@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin-sdk/-/admin-sdk-2.6.1.tgz#bdb8380981f4da7a1124b2b2ac82e1918f582d1c"
+  integrity sha512-3O+xI7N8UpYXeSHyi+7/rAzqnw6AUITMQtinBSiiAc8qBcM9FvpQLWynfPPy93pH3Y1fpWKpKNLXWvT+3QLm7g==
   dependencies:
-    "@medusajs/admin-shared" "~2.4.0"
+    "@medusajs/admin-shared" "2.6.1"
+    zod "3.22.4"
 
-"@medusajs/admin-shared@2.4.0", "@medusajs/admin-shared@~2.4.0":
+"@medusajs/admin-shared@2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@medusajs/admin-shared/-/admin-shared-2.4.0.tgz#b6e5d37b46d07fcf2af053be6465ff500a146fda"
   integrity sha512-AIV9/eiPoK4f4EEp6UlvSq4qqY3jF60z9Av8IPf5gwXQRdcO4cJsnKf0w8zkHwEOl5yQ4Zkosc9yCKT8S2oKTg==
+
+"@medusajs/admin-shared@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin-shared/-/admin-shared-2.6.1.tgz#b85d8cdbc60f1ec13e8cd525e3b264df176bfb3c"
+  integrity sha512-CfVTEoft+zVW9vR72PXBdsPqrAlS+NMGuqMdEwxDVoknStdgk6QzPZESTVOGjOPDx88gjA6YEoIWm1qLDD6+pQ==
 
 "@medusajs/admin-vite-plugin@2.4.0":
   version "2.4.0"
@@ -1990,13 +1996,13 @@
   resolved "https://registry.yarnpkg.com/@medusajs/cart/-/cart-2.4.0.tgz#c384fe7e8f8620224d7a96f8bd8dc5d176390209"
   integrity sha512-BgXZvHpHKnjShT3KrOZQss79QnQixlcHbJi2ujhHfLtb630W8RweAwKwUyxOeMOOJKUDeqsvL9l9r/iFZicVRQ==
 
-"@medusajs/cli@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@medusajs/cli/-/cli-2.4.0.tgz#f89e2449672720fa4b3c00cefaeb5e61fdb2e7f8"
-  integrity sha512-rT3uLg3vYXgIY04DHMHVozpHgPQBzlxqbxjLJyhGla92Zsc+6J9fSi44N7Cj6HPbUBYj7NLX1OsvMohnfEmq1A==
+"@medusajs/cli@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/cli/-/cli-2.6.1.tgz#fdbe39e6a0c20502f8b10d6ed7c8a3282c8e4ec1"
+  integrity sha512-jSOjbFHFqb/UDaNltHSkq2U1D0O0sfOrXffrOea0dFdDNioNl6dfrK57vGlVycs+dFDbzX4wKY6GRMJZ4/mTgQ==
   dependencies:
-    "@medusajs/telemetry" "~2.4.0"
-    "@medusajs/utils" "2.4.0"
+    "@medusajs/telemetry" "2.6.1"
+    "@medusajs/utils" "2.6.1"
     "@types/express" "^4.17.17"
     chalk "^4.0.0"
     configstore "5.0.1"
@@ -2110,18 +2116,18 @@
   resolved "https://registry.yarnpkg.com/@medusajs/file/-/file-2.4.0.tgz#5369e68b23315f6fa2b12cb7b7c7f192e2d65d4d"
   integrity sha512-WPw609irwlfKHx8dZZj8l/m0JOfkCQxyZKRAoO+1hbqoeJdiAg/SP3QmEH0ZLtZ53LIb9OuFnaqAFxV440uicQ==
 
-"@medusajs/framework@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@medusajs/framework/-/framework-2.4.0.tgz#e54ec20c963c2660910da5d3b142e1432b330d83"
-  integrity sha512-Z1y7epefX3g/rAPclsmExAUNuGZWvXaaF5MnfUf/2/ptz5oyLnmDw5dXAUVx4kWqrGo+Ihws3RkSJ8VdC0YEkw==
+"@medusajs/framework@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/framework/-/framework-2.6.1.tgz#fb5961a597585f5d2b4968444e44fa49a5e5c14c"
+  integrity sha512-CzMldmER6ewrX0rZs0Si+9pmPzZZLZT8XeS7SjuGduIHx8uIgpeYtAdCONEEsnxMTec4ru4CgRGKF1a25ujgXg==
   dependencies:
     "@jercle/yargonaut" "^1.1.5"
-    "@medusajs/modules-sdk" "~2.4.0"
-    "@medusajs/orchestration" "~2.4.0"
-    "@medusajs/telemetry" "~2.4.0"
-    "@medusajs/types" "~2.4.0"
-    "@medusajs/utils" "~2.4.0"
-    "@medusajs/workflows-sdk" "~2.4.0"
+    "@medusajs/modules-sdk" "2.6.1"
+    "@medusajs/orchestration" "2.6.1"
+    "@medusajs/telemetry" "2.6.1"
+    "@medusajs/types" "2.6.1"
+    "@medusajs/utils" "2.6.1"
+    "@medusajs/workflows-sdk" "2.6.1"
     "@opentelemetry/api" "^1.9.0"
     "@types/express" "^4.17.17"
     chokidar "^3.4.2"
@@ -2135,6 +2141,7 @@
     jsonwebtoken "^9.0.2"
     lodash "4.17.21"
     morgan "^1.9.1"
+    path-to-regexp "^0.1.10"
     tsconfig-paths "^4.2.0"
     zod "3.22.4"
 
@@ -2263,14 +2270,14 @@
     uuid "^9.0.0"
     zod "3.22.4"
 
-"@medusajs/modules-sdk@~2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@medusajs/modules-sdk/-/modules-sdk-2.4.0.tgz#689969ff60ddacc6c3a087bab9ee6c17ba0391d5"
-  integrity sha512-iu67gJpQGpcn46HPocGxCQH8MY1LQ10De2DFLUueyjNR+e60w4shaZx8MUUKG07vqdOK40s8cf7Be/hFVd4Osg==
+"@medusajs/modules-sdk@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/modules-sdk/-/modules-sdk-2.6.1.tgz#19f1a591324eaa10d43762b68a3138d05220528e"
+  integrity sha512-2Q03qgZQbXSjA/DKkuqqtMaZzEniaIHxgnNum75ozM6hrg3FK1ykH3Tneq9puvzbhGh3rFog+GPna5835GB9XQ==
   dependencies:
-    "@medusajs/orchestration" "~2.4.0"
-    "@medusajs/types" "~2.4.0"
-    "@medusajs/utils" "~2.4.0"
+    "@medusajs/orchestration" "2.6.1"
+    "@medusajs/types" "2.6.1"
+    "@medusajs/utils" "2.6.1"
 
 "@medusajs/notification-local@~2.4.0":
   version "2.4.0"
@@ -2289,13 +2296,13 @@
   resolved "https://registry.yarnpkg.com/@medusajs/notification/-/notification-2.4.0.tgz#319877792dae75617067b5041188fe837a9b1fa9"
   integrity sha512-MXuJ/NZaWflAklSE6J09BF2KLs+lSgWtKlrOO49sld9YMOnDr5SewBYx8Id+Vdt5a30HNPHQDAZ4tXfpnJKd4w==
 
-"@medusajs/orchestration@~2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@medusajs/orchestration/-/orchestration-2.4.0.tgz#3cf7b180dffaeeacf7874f3d768de93dcc025084"
-  integrity sha512-QSIYgnVKh1OqCioj/6p6Hj5IXv+i8I/KKdCdmmX03/sdLXXIAOzfhjprNPZfLjxpnbZaIcpF5eIBYzhPxfajXw==
+"@medusajs/orchestration@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/orchestration/-/orchestration-2.6.1.tgz#2e5d99f753e646719d1567963cc76b2640a72ebf"
+  integrity sha512-PyGME8Pe4ydCwnlXT76CP0LmWuay4Uw4rk7TVXDryCQNZItsB7GevtqU8s8/AcWPRKbmqPVJrkH0ngJJUE0kXg==
   dependencies:
-    "@medusajs/types" "~2.4.0"
-    "@medusajs/utils" "~2.4.0"
+    "@medusajs/types" "2.6.1"
+    "@medusajs/utils" "2.6.1"
 
 "@medusajs/order@~2.4.0":
   version "2.4.0"
@@ -2354,6 +2361,22 @@
   resolved "https://registry.yarnpkg.com/@medusajs/tax/-/tax-2.4.0.tgz#7e82545aedabb190e5816985df91897347e71e6f"
   integrity sha512-h63I491RD7uPuiRC1P64HGUHtGF2xnMPfYWEqG0GtRdCs22HvXYi4OP4GMT9ntkVxQ2jTG5w8q27qEEich9kSg==
 
+"@medusajs/telemetry@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/telemetry/-/telemetry-2.6.1.tgz#e3402cbcca6c9747c50f1884aba89f1f94cccd7d"
+  integrity sha512-k42XVBQqXOK5rh6Si9iu7lRz/6q4c1CcqPWwGih8u7Uf9kp9hqlMZoeiKFjQzKUB9c7UqVM4d0FnSCUJmw1QbA==
+  dependencies:
+    "@babel/runtime" "^7.22.10"
+    axios "^0.21.4"
+    axios-retry "^3.1.9"
+    boxen "^5.0.1"
+    ci-info "^3.2.0"
+    configstore "5.0.1"
+    global "^4.4.0"
+    is-docker "^2.2.1"
+    remove-trailing-slash "^0.1.1"
+    uuid "^8.3.2"
+
 "@medusajs/telemetry@~2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@medusajs/telemetry/-/telemetry-2.4.0.tgz#0a3a8fcf677758c16a5c8c0b9af5b10b08ac7935"
@@ -2380,6 +2403,13 @@
     express "^4.21.0"
     get-port "^5.1.0"
     randomatic "^3.1.1"
+
+"@medusajs/types@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-2.6.1.tgz#acb7caf9f6a3d81c7b30dd144214894a876a9e63"
+  integrity sha512-cysEyeh/h1D3mkYSeaoo6fjpfCqHUGTaIoPLUxU3e2oyJ5GhwdpKB4N3mdkUFBSWmuWn5x7eLAwb7DqM4UzX+w==
+  dependencies:
+    bignumber.js "^9.1.2"
 
 "@medusajs/types@~2.4.0":
   version "2.4.0"
@@ -2428,16 +2458,16 @@
   dependencies:
     jsonwebtoken "^9.0.2"
 
-"@medusajs/utils@2.4.0", "@medusajs/utils@~2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@medusajs/utils/-/utils-2.4.0.tgz#42e975df7ff53b970f248e2aba82f98312dbdfca"
-  integrity sha512-0ApQUuS1Dr7d3sV9tnfGyleZ/AiQxrX8AeTIWdSP0FUg8OV4FEvC5seYLiizfAJcNXiYbqzWyRWcat4fYgAp1A==
+"@medusajs/utils@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/utils/-/utils-2.6.1.tgz#e8b07972df59eb8253ea42f5d02b7d17925985fa"
+  integrity sha512-m2tEerq2JjlEq/zkhPEUs2B48Zld5y+nuqjfshEQ13qPKIActc23QDUj3vsGNy6AQOLEqO9fHz87QYnUk3bKbA==
   dependencies:
     "@graphql-codegen/core" "^4.0.2"
     "@graphql-codegen/typescript" "^4.0.9"
     "@graphql-tools/merge" "^9.0.7"
     "@graphql-tools/schema" "^10.0.6"
-    "@medusajs/types" "~2.4.0"
+    "@medusajs/types" "2.6.1"
     "@types/pluralize" "^0.0.33"
     bignumber.js "^9.1.2"
     dotenv "^16.4.5"
@@ -2465,15 +2495,15 @@
     ioredis "^5.4.1"
     ulid "^2.3.0"
 
-"@medusajs/workflows-sdk@~2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@medusajs/workflows-sdk/-/workflows-sdk-2.4.0.tgz#c42b8e21e0d54af1ffc24f8ff7050197950d778d"
-  integrity sha512-QPjTCVVILfOSd0mL16xVc/bdaTMK/7rULQtXYTUeTNMqtORf8zYsRsEpd2/cSQWZK9s76xGVNCD8+G4+l0mbFw==
+"@medusajs/workflows-sdk@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/workflows-sdk/-/workflows-sdk-2.6.1.tgz#32f8fd4694e427fb02b994c14e516aaea39e7ab6"
+  integrity sha512-dbiDYLpDp4piWNRON0sz+QOUaryRdo6pau4EMHmhZ+HxL8zCeblN0bJl59qr9QSm2nb8KSPv72PPeANfEO/ZAw==
   dependencies:
-    "@medusajs/modules-sdk" "~2.4.0"
-    "@medusajs/orchestration" "~2.4.0"
-    "@medusajs/types" "~2.4.0"
-    "@medusajs/utils" "~2.4.0"
+    "@medusajs/modules-sdk" "2.6.1"
+    "@medusajs/orchestration" "2.6.1"
+    "@medusajs/types" "2.6.1"
+    "@medusajs/utils" "2.6.1"
     ulid "^2.3.0"
 
 "@mikro-orm/cli@6.4.3":
@@ -9012,7 +9042,7 @@ path-scurry@^1.11.1:
     lru-cache "^10.2.0"
     minipass "^5.0.0 || ^6.0.2 || ^7.0.0"
 
-path-to-regexp@0.1.12:
+path-to-regexp@0.1.12, path-to-regexp@^0.1.10:
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.12.tgz#d5e1a12e478a976d432ef3c58d534b9923164bb7"
   integrity sha512-RA1GjUVMnvYFxuqovrEqZoxxW5NUZqbwKtYz/Tt7nXerk0LbLblQmrsgdeOxV5SFHf0UDggjS/bSeOZwt1pmEQ==
@@ -10048,7 +10078,16 @@ string-length@^4.0.1:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
 
-"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.0.0, string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.2, string-width@^4.2.3:
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+string-width@^4.0.0, string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.2, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -10080,7 +10119,14 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -10640,7 +10686,7 @@ winston@^3.8.2:
     triple-beam "^1.3.0"
     winston-transport "^4.9.0"
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
@@ -10653,6 +10699,15 @@ wrap-ansi@^6.0.1, wrap-ansi@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
   integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
+wrap-ansi@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
+  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
   dependencies:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
